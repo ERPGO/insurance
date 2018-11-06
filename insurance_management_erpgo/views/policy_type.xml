@@ -8,6 +8,15 @@
             <field name="arch" type="xml">
                 <form string="Policy Type Form">
                 </form>
+                <record id="policy_type_tree" model="ir.ui.view">
+            <field name="name">Policy Type</field>
+            <field name="model">policy.model</field>
+            <field name="arch" type="xml">
+                <tree string="Policy Type Tree">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
             </field>
         </record>
     </data>
