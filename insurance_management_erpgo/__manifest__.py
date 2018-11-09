@@ -36,6 +36,7 @@
         'views/claim_details.xml',
         'views/employee_details.xml',
         'views/policy_management.xml',
+        'views/policy_type.xml',
         'views/insurance_sequence.xml',
         'views/insurance_management.xml',
         'security/ir.model.access.csv',
